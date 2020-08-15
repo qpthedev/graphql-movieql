@@ -1,0 +1,30 @@
+{
+  "name": "graphql-movieql",
+  "author": "qpthedev",
+  "version": "1.0.0",
+  "description": "Movie API with GraphQL",
+  "repository": "https://github.com/qpthedev/graphql-movieql",
+  "homepage": "https://github.com/qpthedev/graphql-movieql#readme",
+  "bugs": {
+    "url": "https://github.com/qpthedev/graphql-movieql/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-stage-3": "^7.8.3",
+    "nodemon": "^2.0.4"
+  }
+}
